@@ -1,0 +1,7 @@
+DEBUG = True
+
+DB_URL = ''
+DB_NAME = ''
+DB_PASS = ''
+DB_LOGIN = ''
+DEFAULT_TIMEOUT = ''
