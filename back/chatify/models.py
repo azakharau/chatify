@@ -1,9 +1,10 @@
 import dataclasses
 from typing import Optional
 
+from ..mixins import DataMixin
 
 @dataclasses.dataclass()
-class User:
+class User(DataMixin):
     first_name: Optional[str] = None
     last_name: Optional[str] = None
     email: Optional[str] = None
@@ -11,13 +12,13 @@ class User:
     password: Optional[int] = None
 
 
-class Message:
+class Message(DataMixin):
     ...
 
 
-class Chat:
+class Chat(DataMixin):
     ...
 
 
-class ChatList:
+class ChatList(DataMixin):
     ...
