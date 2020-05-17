@@ -1,7 +1,7 @@
 # chatify
 A simple asynchronous online chat based on aiohttp, websockets and vue js
 
-# Usage:
+## Usage:
 * Common preparation:
   * `cd /directory/with/project`
     * `sudo chmod +x ./devrun.sh`
