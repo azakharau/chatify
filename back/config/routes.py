@@ -8,9 +8,6 @@ def setup_routes(app: web.Application):
     app.router.add_view('/register',
                         app['handlers']['register'],
                         name='register')
-    app.router.add_view('/dashboard/{user_id}',
-                        app["handlers"]['dashboard'],
-                        name='dashboard')
     app.router.add_view('/chat/{chat_id}',
                         app["handlers"]['chat'],
                         name='chat')
